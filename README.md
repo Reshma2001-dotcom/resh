@@ -37,3 +37,7 @@ Make sure the script has executable permissions:
 ```bash
 chmod +x run.sh
 ```
+
+## Security Note
+
+**Important**: This script executes commands without validation or sanitization. Only use it with trusted input in controlled environments. Do not expose this script to untrusted users or accept user input without proper validation.
